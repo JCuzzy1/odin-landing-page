@@ -190,8 +190,11 @@ body {
   }
 
   .container {
-    width: 600px;
+    width: 700px;
     background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .attributed {
