@@ -189,14 +189,6 @@ body {
     padding-top: 100px;
   }
 
-  .container {
-    width: 700px;
-    background-color: #E5E7EB;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-  }
-
   .attributed {
     text-align: right;
     font-weight: bold;
