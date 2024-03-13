@@ -1,0 +1,250 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-shrink: 0;
+  }
+
+  .main-content {
+    flex: 1;
+  }
+
+  .header {
+    height: 66px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-left: 120px;
+    padding-right: 120px;
+
+  }
+
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+  }
+
+  .links {
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    gap: 15px;
+
+  }
+
+  .footer {
+    height: 66px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    flex-shrink: 0;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+  }
+
+  .navy-main {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 100px;
+    padding-top: 60px;
+  }
+
+  .left-navy {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    gap: 8px;
+  }
+
+  .right-navy {
+    display: flex;
+    justify-content: flex-end;
+    flex-basis: 50%;
+  }
+
+  .img-card {
+    width: 490px;
+    height: 190px;
+    background-color: #A9A9A9;
+    border: 1px solid #A9A9A9;
+    /*padding: 10px;*/
+    /*margin: 10px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+
+  }
+
+  .header-sign-up {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-weight: bold;
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+  }
+
+  .main-title {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: extra-bold;
+  }
+
+  .title-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+  }
+
+  .white-main {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 130px;
+    padding-top: 28px;
+
+  }
+
+  .header-white {
+    background-color: #FFFFFF;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    padding: 28px;
+  }
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+  .card-one, .card-two, .card-three, .card-four {
+    width: 180px;
+    height: 180px;
+    background-color: #F9FAF8;
+    border-radius: 8px;
+    border: solid #3882F6;
+    border-width: medium;
+    text-wrap: wrap;
+    text-align: center;
+    gap: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .text {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    color: #1F2937;
+    text-wrap: wrap;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    padding-top: 4px;
+  }
+
+  img {
+    width: 180px;
+    height: 180px;
+  }
+
+  .grey-main {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 220px;
+    padding-right: 220px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+  }
+
+  .attributed {
+    text-align: right;
+    font-weight: bold;
+    font-size: 18px;
+    padding-top: 16px;
+  }
+
+  .bottom-main {
+    height: 330px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cta-container {
+    width: 850px;
+    height: 140px;
+    background-color: #3882F6;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+    align-items: center;
+    padding-left: 90px;
+    padding-right: 90px;
+  }
+
+  .bold-text {
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  .bottom-subtext {
+    font-size: 14px;
+  }
+
+  .bottom-sign-up {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-weight: bold;
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    border: solid thin #F9FAF8;
+  }
+
+
+  ul {
+    list-style: none;
+  }
+
+  a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+
+  }
+
