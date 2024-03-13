@@ -189,6 +189,11 @@ body {
     padding-top: 100px;
   }
 
+  .container {
+    width: 600px;
+    background-color: #E5E7EB;
+  }
+
   .attributed {
     text-align: right;
     font-weight: bold;
